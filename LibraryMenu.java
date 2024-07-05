@@ -74,18 +74,7 @@ public class LibraryMenu {
                         } else {
                             System.out.println("No library item found with the provided ID.");
                         }
-                        // System.out.println("Edit Library Item ID: ");
-                        // String editItemId = scanner.next();
-                        // System.out.println("Edit Library Item Title: ");
-                        // String editItemTitle = scanner.next();
-                        // System.out.println("Edit Library Item Author: ");
-                        // String editItemAuthor = scanner.next();
-                        // System.out.println("Edit Library Item ISBN: ");
-                        // String editItemIsbn = scanner.next();
-                        // System.out.println("Edit Library Item Publisher: ");
-                        // String editItemPublisher = scanner.next();
-                        // System.out.println("Edit Library Item Number of Copies: ");
-                        // int editItemNumberOfCopies = scanner.nextInt();
+                        
                     }
                     case 3 -> {
                         System.out.println("Deleting a library item...");
@@ -158,21 +147,9 @@ public class LibraryMenu {
                         }
                         System.out.println("Returning a library item...");
                         System.out.print("Enter the title of the item to return: ");
-                        /*String returnTitle = scanner.nextLine();
-                        System.out.print("Enter your name: ");
-                        String nameReturn = scanner.nextLine();
-                        System.out.print("Enter your address: ");
-                        String addressReturn = scanner.nextLine();
-                        System.out.print("Enter your phone number: ");
-                        String phoneNumberReturn = scanner.nextLine();
-                        System.out.print("Enter your employee ID: ");
-                        String employeeIdReturn = scanner.nextLine();
-                        System.out.print("Enter your department: ");
-                        String departmentReturn = scanner.nextLine();
-                        Patron returnPatron = new Employee(nameReturn, addressReturn, phoneNumberReturn, new ArrayList<>(), employeeIdReturn, department);
-                        library.returnLibraryItem(returnTitle, returnPatron);*/
+                        
                     }
-                    case 6 -> System.out.println("Exiting the system. Goodbye!");
+                    case 6 -> System.out.println("Exiting the system. Have a nice day!");
                     default -> System.out.println("Invalid choice. Please enter a number between 1 and 6.");
                 }
             } while (choice != 6);
