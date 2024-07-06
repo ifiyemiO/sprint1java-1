@@ -17,7 +17,7 @@ public class LibraryMenu {
                 System.out.println("6. Exit");
                 System.out.print("Enter your choice (1-6): ");
                 choice = scanner.nextInt();
-                
+                // Add logic to handle the user's choice
                 switch (choice) {
                     case 1 -> {
                         System.out.println("Adding a new library item...");
